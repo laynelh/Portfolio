@@ -165,6 +165,11 @@
     width: 100% !important;
     height: auto !important;
     margin-bottom: 10px;
+    transition: 0.3s ease-out;
+}
+.image:hover {
+    opacity: 0.3;
+    transition: 0.3s ease-out;
 }
 
 @media (max-width: 1600px) {
