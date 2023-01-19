@@ -324,6 +324,19 @@
 .picture p {
     text-align: center;
 }
+.row {
+    column-count: 2;
+    text-decoration: none;
+}
+.prev {
+    text-decoration: none;
+    padding: 0 5% 10px 5%;
+}
+.next {
+    text-decoration: none;
+    padding: 0 5% 10px 5%;
+    text-align: right;
+}
 
 @media (max-width: 700px) {
     .picture {
