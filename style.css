@@ -337,6 +337,9 @@
     column-count: 2;
     text-decoration: none;
 }
+.row a {
+    padding: 2em;
+}
 .prev {
     text-decoration: none;
     padding: 0 5% 10px 5%;
