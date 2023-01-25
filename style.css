@@ -153,7 +153,7 @@
     height: 10%;
     display: flex;
     position: fixed;
-    right: 20px;
+    right: 45px;
     bottom: 20px;
     z-index: 10;
 }
@@ -166,16 +166,16 @@
 #gallery {
     line-height: 0;
     -webkit-column-count: 3;
-    -webkit-column-gap: 40px;
+    -webkit-column-gap: 90px;
     -moz-column-count: 3;
-    -moz-column-gap: 40px;
+    -moz-column-gap: 90px;
     column-count: 3;
-    column-gap: 40px;
+    column-gap: 90px;
 }
  #gallery img {
     width: 100% !important;
     height: auto !important;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
     transition: 0.3s ease-out;
 }
 .image:hover {
@@ -185,27 +185,36 @@
 
 @media (max-width: 1600px) {
     #gallery {
-        -webkit-column-gap: 25px;
-        -moz-column-gap: 25px;
-        column-gap: 25px;
-    }
-    #gallery img {
-        margin-bottom: 25px;
-    }
- }
- @media (max-width: 1250px) {
-    #gallery {
+        -webkit-column-gap: 70px;
+        -moz-column-gap: 70px;
+        column-gap: 70px;
         -moz-column-count:    2;
         -webkit-column-count: 2;
         column-count:         2;
     }
+    #gallery img {
+        margin-bottom: 70px;
+    }
+ }
+ @media (max-width: 1450px) {
+    #gallery {
+        -webkit-column-gap: 65px;
+        -moz-column-gap: 65px;
+        column-gap: 65px;
+    }
+    #gallery img {
+        margin-bottom: 65px;
+    }
  }
 
- @media (max-width: 1000px) {
+ @media (max-width: 1100px) {
     #gallery {
         -moz-column-count:    1;
         -webkit-column-count: 1;
         column-count:         1;
+    }
+    .logo {
+        right: 35px;
     }
  }
 
