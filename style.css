@@ -393,6 +393,7 @@
     padding: 1px 1px 1px;
     text-align: right;
     font-size: 20px;
+    padding-bottom: 1%;
 }
 
 @media (max-width: 700px) {
