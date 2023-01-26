@@ -385,12 +385,12 @@
 }
 .prev {
     text-decoration: none;
-    padding: 0 5% 10px 5%;
+    padding: 1px 1px 1px;
     font-size: 20px;
 }
 .next {
     text-decoration: none;
-    padding: 0 5% 10px 5%;
+    padding: 1px 1px 1px;
     text-align: right;
     font-size: 20px;
 }
