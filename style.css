@@ -361,7 +361,7 @@
     .picture img {
         /* width: 90%; */
         height: 90%;
-        padding: 150px 5% 0 5%;
+        padding: 150px 5% 1% 5%;
     }
 }
 @media (max-height: 830px) {
