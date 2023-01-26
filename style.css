@@ -364,3 +364,13 @@
         padding: 150px 5% 0 5%;
     }
 }
+@media (max-height: 830px) {
+    .picture img {
+        max-height: 600px;
+    }
+}
+@media (max-height: 730px) {
+    .picture img {
+        max-height: 500px;
+    }
+}
